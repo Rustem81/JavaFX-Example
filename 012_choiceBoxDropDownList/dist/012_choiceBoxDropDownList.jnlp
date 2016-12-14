@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="012_choiceBoxDropDownList.jnlp">
+  <information>
+    <title>012_choiceBoxDropDownList</title>
+    <vendor>Rustem</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="012_choiceBoxDropDownList.jar" size="2439" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="012_choiceBoxDropDownList" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="pkg012_choiceboxdropdownlist.Main"  name="012_choiceBoxDropDownList" />
+  <update check="always"/>
+</jnlp>
